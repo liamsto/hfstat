@@ -1,0 +1,13 @@
+[package]
+name = "hfstat"
+version = "1.0.0"
+edition = "2024"
+publish = false
+
+[[bench]]
+name = "predict"
+harness = false
+
+[profile.release]
+codegen-units = 1
+lto = "fat"

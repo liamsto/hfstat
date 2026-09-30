@@ -1,0 +1,31 @@
+ITU-R-HF upstream notices
+
+Portions of src/p533/ derive from the upstream P533 and P372 implementations. src/data.rs embeds coefficients and decile factors from COEFF01W.txt through COEFF12W.txt and P1239-3 Decile Factors.txt in upstream P533/Data. Additional
+upstream model tables are embedded in src/p533/.
+
+Upstream: https://github.com/ITU-R-Study-Group-3/ITU-R-HF
+Revision: 82017594a1c6cacfaa7e86954c4ae7b3a5825a3d
+
+Copyright notice from P533/Src/P533/Common.h and P372/Src/P372/Common.h:
+
+//////////////////////////////////////////////////////////////////////////////
+//      Copyright  International Telecommunication Union (ITU) 2018         //
+//                     All rights reserved.                                 //
+// No part of this publication may be reproduced, by any means whatsoever,  //
+//              without written permission of ITU                           //
+//////////////////////////////////////////////////////////////////////////////
+
+Permission and disclaimer from README.md:
+
+The ITURHFProp, P533 and P372 software has been developed collaboratively by participants in ITU-R
+Study Group 3. It may be used by implementers in their implementation of the Recommendation as well
+as in revisions of the specific original Recommendation and in other ITU Recommendations, free from
+any copyright assertions.
+
+The software is provided “as is” WITH NO WARRANTIES, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+AND NON-INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS.
+
+The ITU shall not be held liable in any event for any damages whatsoever (including, without
+limitation, damages for loss of profits, business interruption, loss of information, or any other
+pecuniary loss) arising out of or related to use of the Software.
