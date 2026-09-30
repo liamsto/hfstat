@@ -1,10 +1,8 @@
 # hfstat
 
-Rust library for predicting HF circuit performance. Designed to be small, self-contained, and high-performance. The Rust standard library is the only dependency. 
+Rust library for predicting HF circuit performance using ITU Recommendations P.533-14, P.1239-4 and P.372-17. Designed to be small, self-contained, and high-performance. The Rust standard library is the only dependency.
 
-Based on ITU-R P.533-14, P.1239-4 and P.372-17. Call `predict(request)` to get MUF, field strength, received power, noise, SNR and reliability. Prediction does no I/O and uses immutable embedded reference data and stack storage. 
-
-Portions of this implementation were derived from the ITU-R Study Group 3 ITU-R-HF reference implementation. The ITU-R-HF project states that the ITURHFProp, P533 and P372 software may be used by implementers in implementations of the relevant Recommendation free from copyright assertions. See [NOTICE](NOTICE) for the upstream copyright notice, permission and disclaimer.
+See [NOTICE](NOTICE) for the upstream copyright notice, permission and disclaimer.
 
 ## Basic Usage
 
